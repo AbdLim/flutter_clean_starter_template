@@ -35,6 +35,25 @@ Follow the steps below to use this starter template for your Flutter project:
 4. **Run the App:** Use `flutter run` to launch the application on your preferred device or simulator.
 
 
+## Dependencies
+
+This Flutter starter template utilizes the following packages:
+
+- [go_router](https://pub.dev/packages/go_router): A declarative, package-aware router for Flutter.
+- [flutter_svg](https://pub.dev/packages/flutter_svg): Provides SVG rendering capabilities for Flutter.
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc): Implements the BLoC pattern for state management in Flutter.
+- [equatable](https://pub.dev/packages/equatable): Simplifies equality comparisons for Dart objects.
+- [get_it](https://pub.dev/packages/get_it): A simple service locator for managing dependencies in Dart.
+- [intl](https://pub.dev/packages/intl): Provides internationalization and localization support for Flutter apps.
+- [floor](https://pub.dev/packages/floor): A SQLite abstraction for Flutter with a focus on simplicity and conciseness.
+- [retrofit](https://pub.dev/packages/retrofit): A type-safe HTTP client for Dart using Retrofit annotations.
+- [flutter_hooks](https://pub.dev/packages/flutter_hooks): Provides hooks for Flutter widgets for a more functional approach to stateful widgets.
+- [cached_network_image](https://pub.dev/packages/cached_network_image): Caches network images and loads them efficiently in Flutter apps.
+- [dio](https://pub.dev/packages/dio): A powerful HTTP client for Dart that supports Interceptors, FormData, and more.
+
+Please refer to each package's documentation for more information on how to use them in your Flutter project.
+
+
 ## Project Structure
 
 The project follows a well-defined folder structure to ensure a maintainable and organized codebase. Here is an overview of the main folders:
@@ -53,7 +72,7 @@ The project follows a well-defined folder structure to ensure a maintainable and
 
 If you find any bugs or want to contribute to this starter template, feel free to open an issue or submit a pull request on our GitHub repository.
 
-You can also reach out to us on Twitter at [@_aaladan](https://twitter.com/_aaladan) for any questions or feedback.
+You can also reach out to me on Twitter at [@_aaladan](https://twitter.com/_aaladan) for any questions or feedback.
 
 
 ## License
