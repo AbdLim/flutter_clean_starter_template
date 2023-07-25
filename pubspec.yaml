@@ -1,0 +1,71 @@
+name: flutter_template_clean_bloc
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # routing
+  go_router: ^10.0.0
+
+  # render .svg
+  flutter_svg: ^2.0.7
+  
+  # state management
+  flutter_bloc: ^8.1.2
+
+  # comparing dart objects
+  equatable: ^2.0.5
+
+  # service locator
+  get_it: ^7.2.0
+
+  # date formatter
+  intl: ^0.18.1
+
+  # database
+  floor: ^1.4.2
+
+  # http client
+  retrofit: ^4.0.1
+
+  # hooks
+  flutter_hooks: ^0.19.0
+
+  # cached image
+  cached_network_image: ^3.2.3
+
+  # 
+  dio: ^5.3.0
+
+  # 
+  json_annotation: ^4.8.1
+  google_fonts: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  retrofit_generator: ^7.0.8
+  floor_generator: ^1.4.2
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+    - assets/svg/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
